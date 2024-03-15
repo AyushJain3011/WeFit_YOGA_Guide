@@ -85,6 +85,23 @@ header ul{
 header ul li{
 	display: inline-block;
 }
+.asans > h2{
+	font-weight: 700;
+}
+.cont{
+	height: 80vh;
+	display: flex;
+	padding: 5px 0px;
+	align-items: center;
+	justify-content: center;
+}
+.asans{
+
+}
+.cont img{
+	width: 1000px;
+	padding: 0 10px;
+}
 
 
 /* In our demo, the footers are fixed to the bottom of the page */
@@ -92,6 +109,10 @@ header ul li{
 footer{
 	position: fixed;
 	bottom: 0;
+}
+.gap{
+	height:5px;
+	background-color: black;
 }
 
 @media (max-height:800px){
